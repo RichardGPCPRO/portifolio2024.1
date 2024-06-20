@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://st2.depositphotos.com/2605379/7404/i/450/depositphotos_74045797-stock-photo-work-space-with-computer-and.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333; 
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #444;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+#formResponse {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+
+.github-button {
+    background-color: #333;
+}
+
+.github-button:hover {
+    background-color: #555;
+}
+
+.linkedin-button {
+    background-color: #0077b5;
+}
+
+.linkedin-button:hover {
+    background-color: #005582;
+}
+.codepen.io-button {
+    background-color: #0077b5;
+}
+
+.codepenio-button:hover {
+    background-color: #004582;
+}
