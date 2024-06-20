@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p id="resumo">Olá! Meu nome é Richard Wagner, nasci no rio de janeiro e atualmente moro em Curitiba. Estou no primeiro período do curso técnico de desenvolvimento de software pelo senai e também estou cursando na faculdade análise e desenvolvimento de sistemas. Atualmente, estou focado em um projeto pessoal envolvendo o desenvolvimento de um sistema de estoque para grandes empresas, utilizando C# e Arduino.
+
+Estou buscando oportunidades para aplicar e expandir meus conhecimentos na área de tecnologia através de um estágio ou meu primeiro emprego. Tenho dedicado tempo para aprimorar minhas habilidades e estou entusiasmado para contribuir em um ambiente profissional.
+
+Nas horas vagas, gosto de jogar jogos indies. </p>
+        </section>
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Digitação rápida</li>
+                <li>Boa comunicação</li>
+                <li>Pensamento criativo</li>
+                <li>Gestão de tempo</li>
+            </ul>
+            <h2>Linguagens e Frameworks</h2>
+            <ul>
+                <li>C#</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>Dotnet</li>
+                <li>PHP</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projetos</h2>
+            <ul>
+                <li>
+                    <h3>Projeto Estoque</h3>
+                    <p>Com uma inspiração vindo de uma tremenda dificuldade no meu primeiro emprego para encontrar ferramentas ou equipamentos dentro de um enorme almoxarifado. Depois de um tempo lá dentro elaborei um pequeno sistema para facilitar a vida de um próximo iniciante como eu fui. Projeto em andamento</p>
+                    <button onclick="#">Em andamento...</button>
+                </li>
+                <li>
+                    <h3>Crud em sala</h3>
+                    <p>CRUD em C# para sala de aula</p>
+                    <button onclick="window.location.href='https://github.com/RichardGPCPRO/RichardPRO/blob/main/Crud%20em%20sala%20de%20aula'">Ver Crud em C#</button>
+                </li>
+                <li>
+                    <h3>Armazenamento de ferramentas</h3>
+                    <p>Armazenamento para empresas podendo ser editado</p>
+                    <button onclick="window.location.href='https://github.com/RichardGPCPRO/RichardPRO/blob/main/Armazenamento%20de%20Ferramentas'">Ver Armazenamento</button>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="contactForm" method="post" action="sendEmail.php">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="formResponse"></p>
+            <div class="social-buttons">
+                <button class="github-button" onclick="window.location.href='https://github.com/RichardGPCPRO'">GitHub</button>
+                <button class="linkedin-button" onclick="window.location.href='https://www.linkedin.com/in/seu-usuario-linkedin'">LinkedIn</button>
+                <button class="codepen-button" onclick="window.location.href='https://codepen.io/Richard-Pingo-Wagner'">Codepen.io</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Portfólio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
